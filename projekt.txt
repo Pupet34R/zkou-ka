@@ -1,0 +1,9 @@
+Situace: Auto s člověkem
+	Konflikt s autoritou
+	Nalezený poklad
+	osobní ztráta vs. záchrana skupiny
+
+$env:Path += ';E:\Git\cmd'
+git --version
+PS G:\Maturita\IVT\maturita - kopie> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+PS G:\Maturita\IVT\maturita - kopie> .\.venv\Scripts\Activate.ps1
