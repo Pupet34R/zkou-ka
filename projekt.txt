@@ -1,7 +1,27 @@
-Situace: Auto s člověkem
+Situace: Auto s člověkem/vůz s obchodníkem - smrt u nechráněného vozidla
 	Konflikt s autoritou
 	Nalezený poklad
+	Přítel v úzkých/pandemie
+	Zakázaná síla
+	
+
 	osobní ztráta vs. záchrana skupiny
+	Zakázaná síla
+	Tichý svědek
+	Pandemie
+	Bezbranný nepřítel
+	Škodlivé tajemství
+	Nespravedlivá odměna
+	Oběť pro vyšší dobro
+	Zkratka k úspěchu	
+	Pomsta
+	Nebezpečná zkratka
+	Přítel v úzkých
+
+tiefling: Fantasy: Tvou družinu obklíčili nemrtví. Jediný způsob, jak všechny zachránit a uniknout, je zničit tvůj rodový artefakt (zbraň/amulet), který je tvým jediným zdrojem síly a památkou na tvou rodinu. 
+Kouzelník: powerfull book
+Elf:
+Skřet:
 
 $env:Path += ';E:\Git\cmd'
 git --version
