@@ -1,12 +1,12 @@
 .titulek {border: 1px solid green; margin-top: 5%;}
 .titulek p {font-size: 50px;}
 .uvod {border: 1px solid purple; margin: 5%; padding: 2%;}
-.text {border: 1px solid red;}
-.hodnoceni {border: 1px solid blue; padding: 0.5% 32%; margin: 1%}
+.text {border: 1px solid red;font-size: 150%;}
+.hodnoceni {border: 1px solid blue; padding: 0.5% 2%; margin: 1%}
 .hodnoceni2 {border: 1px solid blue; padding: 0.5% 8%; margin: 1%}
 .tlacitko {border: 1px solid orange; margin: 2% 30%;}
 .obrazek {border: 1px solid black; margin: 5%; padding: 2%;}
-.odpoved {border: 1px solid pink; margin: 5%; padding: 2%;}
+.odpoved {border: 1px solid pink; margin: 0% 5%; padding: 0.5%;}
 .odpoved label {margin: 0.5% 0;}
 .odpoved p {font-size: 20px; margin: 0.5% 3% 1% 1%; text-align: left;}
 .classa {border: 1px solid cyan; margin: 0%;}

@@ -3,5 +3,5 @@ node_modules/
 .venv/
 __pycache__/
 *.pyc
-
+template.html
 
