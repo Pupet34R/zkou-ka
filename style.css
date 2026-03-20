@@ -1,14 +1,66 @@
-.titulek {border: 1px solid green; margin-top: 5%;}
+body {background: radial-gradient(#a9c9fc, #789ab4); color: #ffffff;}
+.uvod {border: 5px #355872 solid; background: #7AAACE; display: flex; flex-wrap: wrap; margin: 3%; padding: 2%;}
+.uvod p {display: flex; flex-wrap: wrap; font-size: 160%;}
+.uvod h1 {display: flex; flex-wrap: wrap}
+.titulek {margin-top: 0%;}
 .titulek p {font-size: 50px;}
-.uvod {border: 1px solid purple; margin: 5%; padding: 2%;}
-.text {border: 0px solid red;font-size: 150%;}
-.hodnoceni {border: 1px solid blue; padding: 0.5% 2%; margin: 1%}
-.hodnoceni2 {border: 1px solid blue; padding: 0.5% 8%; margin: 1%}
-.tlacitko {border: 1px solid orange; margin: 2% 30%;}
-.obrazek {border: 1px solid black; margin: 5%; padding: 2%;}
-.odpoved {border: 1px solid pink; margin: 0% 5%; padding: 0.5%;}
-.odpoved label {margin: 0.5% 0;}
+.text {font-size: 150%; background-color: #7AAACE ;border: solid, 5px, #F7F8F0; color: #F7F8F0; padding: 1%;}
+.hodnoceni {border: 5px solid #7AAACE; display: flex; flex-wrap: wrap; background: #7bc8ff;}
+.hodnoceni .form-check {margin: 2% 2%;}
+.hodnoceni2 {padding: 0.5% 8%; margin: 1%; border: 5px solid #7AAACE; display: flex; flex-wrap: wrap; background: #7bc8ff;}
+.hodnoceni2 .form-check {margin: 2% 2%; background: #4d44c6; padding: 1%;}
+.obrazek {margin-bottom: 1%;}
+.obrazek img {width: 100%; height: auto;}
+.tlacitko .btn {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#1C0770 , #261CC1 ,); margin: 2% 30%;}
+.tlacitko .btn:hover {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#261CC1,  #4d44c6); margin: 2% 30%;}
+.tlacitko .btn:active {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#261CC1,  #4d44c6); margin: 2% 30%;}
+.odpoved {margin: 0% 5%; padding: 0.5%;}
 .odpoved p {font-size: 20px; margin: 0.5% 3% 1% 1%; text-align: left;}
-.classa {border: 1px solid cyan; margin: 0%; justify-content: top; align-items: top;}
-.selection {border: 1px solid magenta; margin: 5%; padding: 2%;}
-.text-info {border: 0px solid brown; }
+.odpoved label {margin: 0.5% 0;}
+.odpoved .btn {color: #1C0770;}
+
+@media (min-width: 768px) {
+body {background: radial-gradient(#a9c9fc, #789ab4); color: #ffffff;}
+.uvod {border: 5px #355872 solid; background: #7AAACE; display: flex; flex-wrap: wrap; margin: 3%; padding: 2%;}
+.uvod p {display: flex; flex-wrap: wrap; font-size: 200%;}
+.uvod h1 {display: flex; flex-wrap: wrap; font-size: 300%;}
+.titulek {margin-top: 5%;}
+.titulek p {font-size: 800%;}
+.text {font-size: 250%; background-color: #7AAACE ;border: solid, 5px, #F7F8F0; color: #F7F8F0; padding: 1%;}
+.hodnoceni {border: 5px solid #7AAACE; display: flex; flex-wrap: wrap; background: #7bc8ff;}
+.hodnoceni .form-check {margin: 2% 2%; font-size: 200%;}
+.hodnoceni2 {padding: 0.5% 8%; margin: 1%; border: 5px solid #7AAACE; display: flex; flex-wrap: wrap; background: #7bc8ff;}
+.hodnoceni2 .form-check {margin: 2% 2%; background: #4d44c6; padding: 1%; font-size: 200%;}
+.obrazek {border: white solid 5px;}
+.obrazek img {width: 100%; height: auto;}
+.tlacitko .btn {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#1C0770 , #261CC1 ,); margin: 2% 30%; width: 60%; font-size: 150%;}
+.tlacitko .btn:hover {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#261CC1,  #4d44c6); margin: 2% 30%; width: 60%; font-size: 150%;}
+.tlacitko .btn:active {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#261CC1,  #4d44c6); margin: 2% 30%; width: 60%; font-size: 150%;}
+.odpoved {margin: 0% 5%; padding: 0.5%;}
+.odpoved p {font-size: 20px; margin: 0.5% 3% 1% 1%; text-align: left;}
+.odpoved label {margin: 0.5% 0;}
+.odpoved .btn {color: #1C0770;} 
+}
+
+@media (min-width: 1500px){
+body {background: radial-gradient(#a9c9fc, #789ab4); color: #ffffff;}
+.uvod {border: 5px #355872 solid; background: #7AAACE; display: flex; flex-wrap: wrap; margin: 3%; padding: 2%;}
+.uvod p {display: flex; flex-wrap: wrap; font-size: 200%;}
+.uvod h1 {display: flex; flex-wrap: wrap; font-size: 300%;}
+.titulek {margin-top: 3%;}
+.titulek p {font-size: 800%;}
+.text {font-size: 150%; background-color: #7AAACE ;border: solid, 5px, #F7F8F0; color: #F7F8F0; padding: 1%;}
+.hodnoceni {border: 5px solid #7AAACE; display: flex; flex-wrap: wrap; background: #7bc8ff;}
+.hodnoceni .form-check {margin: 2% 2%; font-size: 100%;}
+.hodnoceni2 {padding: 0.5% 8%; margin: 1% 10%; border: 5px solid #7AAACE; display: flex; flex-wrap: wrap; background: #7bc8ff;}
+.hodnoceni2 .form-check {margin: 2% 2%; background: #4d44c6; padding: 1%; font-size: 100%;}
+.obrazek {border: white solid 5px;}
+.obrazek img {width: 100%; height: auto;}
+.tlacitko .btn {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#1C0770 , #261CC1 ,); margin: 1% 30%; width: 40%; font-size: 100%;}
+.tlacitko .btn:hover {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#261CC1,  #4d44c6); margin: 1% 30%; width: 40%; font-size: 100%;}
+.tlacitko .btn:active {color: white; border: solid, 5px, #1C0770; background: radial-gradient(#261CC1,  #4d44c6); margin: 1% 30%; width: 40%; font-size: 100%;}
+.odpoved {margin: 0% 5%; padding: 0.5%;}
+.odpoved p {font-size: 20px; margin: 0.5% 3% 1% 1%; text-align: left;}
+.odpoved label {margin: 0.5% 0;}
+.odpoved .btn {color: #1C0770;} 
+}

@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test Osobnosti</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../../style.css">
     <script src="../../backend/server.js" defer></script>
-        <script src="/js/quiz.js" defer></script>
+    <script src="/js/quiz.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 </head>
 <body>
     <form method="POST" action="/save-answer" id="quizForm">
-        <div class="container ">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col">
                 <div class="uvod d-flex justify-content-center align-items-center text-center">
-                    <h1>V této části se prosím vyjádřete k uvedeným tvrzením pomocí pětibodové škály. Vaše odpovědi by měly reflektovat Vaše standardní reakce v běžném životě.
+                    <h1>V této části se prosím vyjádřete k uvedeným tvrzením pomocí pětibodové škály. Vaše odpovědi by měly reflektovat Vaše standardní reakce v běžném životě.</h1>
 
-                        Škála 1 až 5:
+                        <p>Škála 1 až 5:</p>
 
-                        1 – Naprosto nesouhlasím / Vůbec mi neodpovídá: Tvrzení je v přímém rozporu s mým chováním či postoji.
+                        <p>1 – Naprosto nesouhlasím / Vůbec mi neodpovídá: Tvrzení je v přímém rozporu s mým chováním či postoji.</p>
 
-                        2 – Spíše nesouhlasím / Spíše mi neodpovídá: Tvrzení mě vystihuje pouze výjimečně nebo ve velmi malé míře.
+                        <p>2 – Spíše nesouhlasím / Spíše mi neodpovídá: Tvrzení mě vystihuje pouze výjimečně nebo ve velmi malé míře.</p>
 
-                        3 – Neutrální postoj / Nevím: K tvrzení nemám vyhraněný názor, nebo se v mém případě projevuje střídavě.
+                        <p>3 – Neutrální postoj / Nevím: K tvrzení nemám vyhraněný názor, nebo se v mém případě projevuje střídavě.</p>
 
-                        4 – Spíše souhlasím / Spíše mi odpovídá: Tvrzení mě ve většině případů vystihuje, i když existují výjimky.
+                        <p>4 – Spíše souhlasím / Spíše mi odpovídá: Tvrzení mě ve většině případů vystihuje, i když existují výjimky.</p>
 
-                        5 – Naprosto souhlasím / Zcela mi odpovídá: Tvrzení přesně definuje mé standardní chování a postoje.</h1>
+                        <p>5 – Naprosto souhlasím / Zcela mi odpovídá: Tvrzení přesně definuje mé standardní chování a postoje.</p>
                 </div>
                 <div class="text d-flex justify-content-center align-items-center text-center">
-                    <p><strong>1.</strong>Jsem rád středem pozornosti.</p></div>
+                    <p><strong>1. </strong>Jsem rád středem pozornosti.</p></div>
                 <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="q1" id="q1_1" value="1" required>
@@ -54,7 +57,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>2.</strong>Na večírcích se málokdy s někým bavím.</p></div>
+                <p><strong>2. </strong>Na večírcích se málokdy s někým bavím.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q2" id="q2_1" value="1" required>
@@ -78,7 +81,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>3.</strong>Cítím se dobře ve velkém davu lidí.</p></div>
+                <p><strong>3. </strong>Cítím se dobře ve velkém davu lidí.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q3" id="q3_1" value="1" required>
@@ -102,7 +105,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>4.</strong>Raději trávím večer o samotě než ve společnosti.</p></div>
+                <p><strong>4. </strong>Raději trávím večer o samotě než ve společnosti.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q4" id="q4_1" value="1" required>
@@ -126,7 +129,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>5.</strong>Snadno navazuji hovory s cizími lidmi.</p></div>
+                <p><strong>5. </strong>Snadno navazuji hovory s cizími lidmi.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q5" id="q5_1" value="1" required>
@@ -150,7 +153,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>6.</strong>Často se v diskusích držím v pozadí.</p></div>
+                <p><strong>6. </strong>Často se v diskusích držím v pozadí.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q6" id="q6_1" value="1" required>
@@ -174,7 +177,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>7.</strong>Mám spoustu energie, když jsem s ostatními.</p></div>
+                <p><strong>7. </strong>Mám spoustu energie, když jsem s ostatními.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q7" id="q7_1" value="1" required>
@@ -198,7 +201,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>8.</strong>Působím spíše tichým a uzavřeným dojmem.</p></div>
+                <p><strong>8. </strong>Působím spíše tichým a uzavřeným dojmem.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q8" id="q8_1" value="1" required>
@@ -222,7 +225,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>9.</strong>Často se mi mění nálada bez zjevného důvodu.</p></div>
+                <p><strong>9. </strong>Často se mi mění nálada bez zjevného důvodu.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q9" id="q9_1" value="1" required>
@@ -246,7 +249,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>10.</strong>Zůstávám v klidu i v krizových situacích.</p></div>
+                <p><strong>10. </strong>Zůstávám v klidu i v krizových situacích.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q10" id="q10_1" value="1" required>
@@ -270,7 +273,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>11.</strong>Snadno mě něco vyvede z míry.</p></div>
+                <p><strong>11. </strong>Snadno mě něco vyvede z míry.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q11" id="q11_1" value="1" required>
@@ -294,7 +297,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>12.</strong>Málokdy pociťuji úzkost nebo strach.</p></div>
+                <p><strong>12. </strong>Málokdy pociťuji úzkost nebo strach.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q12" id="q12_1" value="1" required>
@@ -318,7 +321,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>13.</strong>Často se trápím věcmi, které už nemůžu změnit.</p></div>
+                <p><strong>13. </strong>Často se trápím věcmi, které už nemůžu změnit.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q13" id="q13_1" value="1" required>
@@ -342,7 +345,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>14.</strong>Dokážu dobře ovládat své emoce.</p></div>
+                <p><strong>14. </strong>Dokážu dobře ovládat své emoce.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q14" id="q14_1" value="1" required>
@@ -366,7 +369,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>15.</strong>Často se cítím pod tlakem nebo ve stresu.</p></div>
+                <p><strong>15. </strong>Často se cítím pod tlakem nebo ve stresu.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q15" id="q15_1" value="1" required>
@@ -390,7 +393,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>16.</strong>Jsem psychicky velmi odolný člověk.</p></div>
+                <p><strong>16. </strong>Jsem psychicky velmi odolný člověk.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q16" id="q16_1" value="1" required>
@@ -414,7 +417,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>17.</strong>Vždycky mám ve svých věcech i úkolech pořádek.</p></div>
+                <p><strong>17. </strong>Vždycky mám ve svých věcech i úkolech pořádek.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q17" id="q17_1" value="1" required>
@@ -438,7 +441,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>18.</strong>Často zapomínám na schůzky nebo termíny.</p></div>
+                <p><strong>18. </strong>Často zapomínám na schůzky nebo termíny.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q18" id="q18_1" value="1" required>
@@ -462,7 +465,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>19.</strong>Pracuji velmi precizně a důsledně.</p></div>
+                <p><strong>19. </strong>Pracuji velmi precizně a důsledně.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q19" id="q19_1" value="1" required>
@@ -486,7 +489,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>20.</strong>Občas věci odkládám na poslední chvíli.</p></div>
+                <p><strong>20. </strong>Občas věci odkládám na poslední chvíli.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q20" id="q20_1" value="1" required>
@@ -510,7 +513,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>21.</strong>Mám jasné cíle a jdu si tvrdě za nimi.</p></div>
+                <p><strong>21. </strong>Mám jasné cíle a jdu si tvrdě za nimi.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q21" id="q21_1" value="1" required>
@@ -534,7 +537,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>22.</strong>Než něco udělám, pečlivě si to naplánuji.</p></div>
+                <p><strong>22. </strong>Než něco udělám, pečlivě si to naplánuji.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q22" id="q22_1" value="1" required>
@@ -558,7 +561,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>23.</strong>Někdy jsem líný a nedokončím, co jsem začal.</p></div>
+                <p><strong>23. </strong>Někdy jsem líný a nedokončím, co jsem začal.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q23" id="q23_1" value="1" required>
@@ -582,7 +585,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>24.</strong>Jsem velmi spolehlivý v plnění svých slibů.</p></div>
+                <p><strong>24. </strong>Jsem velmi spolehlivý v plnění svých slibů.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q24" id="q24_1" value="1" required>
@@ -606,7 +609,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>25.</strong>Mám velmi bohatou fantazii a vnitřní svět.</p></div>
+                <p><strong>25. </strong>Mám velmi bohatou fantazii a vnitřní svět.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q25" id="q25_1" value="1" required>
@@ -630,7 +633,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>26.</strong>Dávám přednost zajetým kolejím před novinkami.</p></div>
+                <p><strong>26. </strong>Dávám přednost zajetým kolejím před novinkami.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q26" id="q26_1" value="1" required>
@@ -678,7 +681,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>28.</strong>Umění a kultura jsou pro můj život klíčové.</p></div>
+                <p><strong>28. </strong>Umění a kultura jsou pro můj život klíčové.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q28" id="q28_1" value="1" required>
@@ -702,7 +705,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>29.</strong>Nerad přemýšlím o abstraktních teoriích.</p></div>
+                <p><strong>29. </strong>Nerad přemýšlím o abstraktních teoriích.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q29" id="q29_1" value="1" required>
@@ -726,7 +729,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>30.</strong>Dokážu si v hlavě vytvořit velmi živé a detailní obrazy.</p></div>
+                <p><strong>30. </strong>Dokážu si v hlavě vytvořit velmi živé a detailní obrazy.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q30" id="q30_1" value="1" required>
@@ -750,7 +753,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>31.</strong>Jsem fascinován novými a neobvyklými nápady.</p></div>
+                <p><strong>31. </strong>Jsem fascinován novými a neobvyklými nápady.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q31" id="q31_1" value="1" required>
@@ -774,7 +777,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>32.</strong>Považuji se za kreativního člověka.</p></div>
+                <p><strong>32. </strong>Považuji se za kreativního člověka.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q32" id="q32_1" value="1" required>
@@ -798,7 +801,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>33.</strong>Silně prožívám emoce postav ve filmech či knihách.</p></div>
+                <p><strong>33. </strong>Silně prožívám emoce postav ve filmech či knihách.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q33" id="q33_1" value="1" required>
@@ -822,7 +825,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>34.</strong>Problémy ostatních mě většinou nechávají chladným.</p></div>
+                <p><strong>34. </strong>Problémy ostatních mě většinou nechávají chladným.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q34" id="q34_1" value="1" required>
@@ -846,7 +849,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>35.</strong>Vždy se aktivně snažím pochopit, co druhý člověk cítí.</p></div>
+                <p><strong>35. </strong>Vždy se aktivně snažím pochopit, co druhý člověk cítí.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q35" id="q35_1" value="1" required>
@@ -870,7 +873,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>36.</strong>Lidé mi často říkají, že jsem skvělý posluchač.</p></div>
+                <p><strong>36. </strong>Lidé mi často říkají, že jsem skvělý posluchač.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q36" id="q36_1" value="1" required>
@@ -894,7 +897,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>37.</strong>Je mi fyzicky nepříjemné, když vidím někoho trpět.</p></div>
+                <p><strong>37. </strong>Je mi fyzicky nepříjemné, když vidím někoho trpět.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q37" id="q37_1" value="1" required>
@@ -918,7 +921,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>38.</strong>Často poznám náladu druhého, aniž by promluvil.</p></div>
+                <p><strong>38. </strong>Často poznám náladu druhého, aniž by promluvil.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q38" id="q38_1" value="1" required>
@@ -942,7 +945,7 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>39.</strong>Soustředím se spíše na logická fakta než na city lidí.</p></div>
+                <p><strong>39. </strong>Soustředím se spíše na logická fakta než na city lidí.</p></div>
             <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q39" id="q39_1" value="1" required>
@@ -966,8 +969,8 @@
                 </div>
             </div>
             <div class="text d-flex justify-content-center align-items-center text-center">
-                <p><strong>40.</strong>Rád pomáhám druhým, i když z toho nemám žádný prospěch.</p></div>
-            <div class="hodnoceni d-flex justify-content-centers align-items-center text-center">
+                <p><strong>40. </strong>Rád pomáhám druhým, i když z toho nemám žádný prospěch.</p></div>
+            <div class="hodnoceni d-flex justify-content-center align-items-center text-center">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="q40" id="q40_1" value="1" required>
                     <label class="form-check-label" for="q40_1">1</label>
@@ -989,6 +992,7 @@
                     <label class="form-check-label" for="q40_5">5</label>
                 </div>
             </div>
+            </div>    
             <div class="tlacitko row justify-content-center align-items-center text-center">
                 <button type="button" class="btn btn-primary btn-lg px-5" onclick="saveAndNext('3stranka.html')">Další</button>
             </div>

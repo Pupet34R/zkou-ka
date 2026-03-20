@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Situace</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../../style.css">
     <script src="../../backend/server.js" defer></script>
-        <script src="/js/quiz.js" defer></script>
+    <script src="/js/quiz.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 </head>
 <body>
     <form method="POST" action="/save-answer" id="quizForm">
@@ -18,21 +21,22 @@
                         <img src="">
                     </div>
                     <div class="text d-flex justify-content-center align-items-center text-center">
-                        <p>Město se potýká s vážnou krizí a v ulicích panuje nervozita. Váš nejlepší přítel, který je pod velkým tlakem, neúmyslně zavinil vážnou dopravní nehodu a z místa v šoku ujel. Policie z činu podezřívá vašeho společného souseda, se kterým máte oba špatné vztahy. Sousedovi teď hrozí vězení. Váš přítel vás prosí, abyste mu potvrdil falešné alibi, že v době nehody byl s vámi doma.</p></div>
+                        <p>Město je uzavřeno v přísné pandemické karanténě. Platí zákaz návštěv a mimo domov je přísně nařízeno nosit roušku. Váš nejlepší přítel vám zoufale volá. Pobyt v naprosté izolaci už psychicky nezvládá a prosí vás, abyste za ním tajně přišli a dělali mu společnost. Pokud půjdete, porušíte nařízení, riskujete vysokou pokutu a případný přenos nákazy.</p></div>
                         <div class="odpoved d-flex flex-column text-left">
-                            <input type="radio" class="btn-check" id="opt1" name="odpoved4" value="1" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt1" name="odpoved4" value="+" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt1">
-                                <p>Odmítnu příteli potvrdit falešné alibi a trvám na tom, aby šel na policii celou věc vysvětlit, jinak tam půjdu sám.</p>
+                                <p>Odmítnu riskovat šíření nákazy a porušit pravidla. Místo toho mu nabídnu maximální podporu na dálku, například přes videohovor.</p>
                             </label>
-                            <input type="radio" class="btn-check" id="opt2" name="odpoved4" value="2" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt2" name="odpoved4" value="0" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt2">
-                                <p>Sdělím příteli, že mu alibi nepotvrdím, ale zároveň policii aktivně nic nenahlásím a nebudu se do vyšetřování plést.</p>
+                                <p>Tajně se za ním vydám, ale po celou dobu si nechám roušku, udržím si odstup a zdržím se jen na nezbytně nutnou chvíli, abych ho uklidnil s minimálním rizikem.</p>
                             </label>
-                            <input type="radio" class="btn-check" id="opt3" name="odpoved4" value="3" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt3" name="odpoved4" value="-" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt3">
-                                <p>Policii potvrdím falešné alibi svého přítele a podpořím verzi, že v době nehody byl se mnou, čímž potvrdím podezření vůči sousedovi.</p>
+                                <p>Nařízení ignoruji a jdu za ním na normální návštěvu. Pomoc nejbližšímu příteli je pro mě v tu chvíli důležitější než plošná vládní pravidla.</p>
                             </label>
                         </div>
+                    </div>
                     <div class="tlacitko row justify-content-center align-items-center text-center">
                         <button type="button" class="btn btn-primary btn-lg px-5" onclick="saveAndNext('fakeOtazka.html')">Další</button>
                     </div>

@@ -35,10 +35,10 @@ app.post('/save-answer', (req, res) => {
     'q31','q32','q33','q34','q35','q36','q37','q38','q39','q40',
     'q41','q42','q43','q44','q45','q46','q47','q48','q49','q50',
     'q51','q52','q53','q54','q55','q56', 'q57','q58','q59',
-    'odpoved1','odpoved2','odpoved3','odpoved4','odpoved5','odpoved6','odpoved7','odpoved8','odpoved9','odpoved10',
-    'odpoved11','odpoved12','odpoved13','odpoved14','odpoved15','odpoved16','odpoved17','odpoved18','odpoved19','odpoved20',
-    'odpoved21','odpoved22','odpoved23','odpoved24','odpoved25','odpoved26','odpoved27','odpoved28','odpoved29','odpoved30',
-    'odpoved31','odpoved32','odpoved33','odpoved34','odpoved35'
+    'odpoved1','odpoved2','odpoved3','odpoved4','odpoved5','odpoved6','odpoved7','Eo1','Eo2','Eo3',
+    'Eo4','Eo5','Eo6','EoF','Ko1','Ko2','Ko3','Ko4','Ko5','Ko6',
+    'KoF','So1','So2','So3','So4','So5','So6','SoF','To1','To2',
+    'To3','To4','To5','To6','ToF',
   ];
 
   // Build one line: timestamp,q1:value,q2:value,...

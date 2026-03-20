@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Situace Skřet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../styleF.css">
     <script src="../../../backend/server.js" defer></script>
-        <script src="/js/quiz.js" defer></script>
+    <script src="/js/quiz.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 </head>
 <body>
     <form method="POST" action="/save-answer" id="quizForm">
@@ -18,21 +21,22 @@
                         <img src="">
                     </div>
                     <div class="text d-flex justify-content-center align-items-center text-center">
-                        <p>Město zachvátila záhadná nákaza a lidé jsou zoufalí. Váš dlouholetý společník z družiny se pokusil ukrást vzácnou léčivou relikvii z chrámu, ale při útěku ji nechtěně rozbil, čímž zničil jedinou naději na vyléčení nemocných. Stráž z tohoto činu obvinila potulného léčitele, který byl v chrámu cizincem. Pokud se pravda neukáže, léčitele čeká zítra ráno poprava. Váš společník vás prosí o mlčení.</p></div>
+                        <p>Královské město zasáhla vysoce nakažlivá magická morová rána. Městská stráž a kněží neprodyšně uzavřeli nakaženou čtvrť. Platí přísný zákaz vstupu a venku se lze bezpečně pohybovat jen se speciální ochrannou maskou napuštěnou bylinami. Váš bývalý spolubojovník, který uvízl v karanténě, vám pošle propašovaný dopis. Je na pokraji šílenství z izolace a strachu. Zoufale vás prosí, abyste za ním tajně proklouzli a dělali mu společnost, i když tím riskujete vlastní nakažení a tvrdý trest od stráží.</p></div>
                         <div class="odpoved d-flex flex-column text-left">
-                            <input type="radio" class="btn-check" id="opt1" name="odpoved25" value="1" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt1" name="So4" value="+" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt1">
-                                <p>Přivedu svého společníka přímo k veliteli stráží a nahlásím, co se u relikvie skutečně stalo.</p>
+                                <p>Odmítnu. Nejsem blázen, abych se nechal nakazit nebo chytit stráží. Moje vlastní přežití je na prvním místě, i když je to kámoš.</p>
                             </label>
-                            <input type="radio" class="btn-check" id="opt2" name="odpoved25" value="2" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt2" name="So4" value="0" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt2">
-                                <p>Zůstanu v úkrytu v hospodě, budu ignorovat dění na náměstí a počkám, až se situace v rozbouřeném městě uklidní.</p>
+                                <p>Tajně tam proklouznu, nasadím si masku a využiju stíny, abych mu hodil nějaké zásoby. Nechci být viděn ani stráží, ani morem.</p>
                             </label>
-                            <input type="radio" class="btn-check" id="opt3" name="odpoved25" value="3" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt3" name="So4" value="-" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt3">
-                                <p>Využiju situace a anonymně nahlásím strážím úkryt léčitelova zbývajícího majetku, abych se zbavil svědka a získal odměnu za spolupráci.</p>
+                                <p>Zákazy ignoruji. Stráže jsou tu od toho, aby se obcházely. Proklouznu k němu a pokud to půjde, vytáhnu ho ven – ve dvou se to lépe táhne.</p>
                             </label>
                         </div>
+                    </div>
                     <div class="tlacitko row justify-content-center align-items-center text-center">
                         <button type="button" class="btn btn-primary btn-lg px-5" onclick="saveAndNext('5otazkaS.html')">Další</button>
                     </div>

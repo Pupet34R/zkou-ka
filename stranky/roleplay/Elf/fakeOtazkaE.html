@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Situace Elf</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../styleF.css">
     <script src="../../../backend/server.js" defer></script>
-        <script src="/js/quiz.js" defer></script>
+    <script src="/js/quiz.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 </head>
 <body>
     <form method="POST" action="/save-answer" id="quizForm">
@@ -20,19 +23,20 @@
                     <div class="text d-flex justify-content-center align-items-center text-center">
                         <p>Váš rodný les umírá na magickou nákazu. Jedinou nadějí na jeho uzdravení je krev bájného bílého jelena, který se objevil u vašeho tábora. Jelen je však poslední svého druhu. Pokud ho ulovíte, váš domov bude zachráněn, ale magický druh jelena navždy vyhyne.</p></div>
                         <div class="odpoved d-flex flex-column text-left">
-                            <input type="radio" class="btn-check" id="opt1" name="odpoved14" value="1" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt1" name="EoF" value="+" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt1">
                                 <p>Nechám jelena žít a pokusím se najít jiný, mnohem náročnější způsob záchrany lesa, i když je výsledek nejistý.</p>
                             </label>
-                            <input type="radio" class="btn-check" id="opt2" name="odpoved14" value="2" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt2" name="EoF" value="0" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt2">
                                 <p>Budu jelena pouze stopovat a pozorovat, ale nepodniknu žádnou akci, která by rozhodla o jeho životě nebo o osudu lesa.</p>
                             </label>
-                            <input type="radio" class="btn-check" id="opt3" name="odpoved14" value="3" autocomplete="off" required>
+                            <input type="radio" class="btn-check" id="opt3" name="EoF" value="-" autocomplete="off" required>
                             <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt3">
                                 <p>Jelena ulovím, získám jeho krev k záchraně lesa a zbytek jeho těla prodám za vysokou cenu sběratelům rarit.</p>
                             </label>
                         </div>
+                    </div>
                     <div class="tlacitko row justify-content-center align-items-center text-center">
                         <button type="button" class="btn btn-primary btn-lg px-5" onclick="saveAndNext('3otazkaE.html')">Další</button>
                     </div>

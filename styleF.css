@@ -1,0 +1,92 @@
+body {background: #333333; background: radial-gradient(#646464, #303030); color: white;}
+.uvod {border: 5px #000000 solid; background: gray; display: flex; flex-wrap: wrap; margin: 1%; padding: 2%;}
+.uvod p {display: flex; flex-wrap: wrap; font-size: 160%;}
+.uvod h1 {display: flex; flex-wrap: wrap}
+.titulek {margin-top: 0%;}
+.titulek p {font-size: 50px; font-family: "MedievalSharp"}
+.text {font-size: 150%; border: solid, 5px, #EFBF04; background: radial-gradient(#BF40BF 10%, #9F2B68); color: #EFBF04; padding: 1%;}
+.hodnoceni {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; display: flex; flex-wrap: wrap;}
+.hodnoceni .form-check {margin: 2% 2%;}
+.obrazek {margin-bottom: 1%;}
+.obrazek img {width: 100%; height: auto;}
+.classa {margin: 0%; justify-content: top; align-items: top;}
+.classa .btn {border: #5151f0 solid 2px; background: radial-gradient(gold 55%, #7575f2);}
+.classa .btn:hover {border: gold solid 2px; background: radial-gradient(white 50%, gold);}
+.classa .text {padding: 0.5%; font-size: 200%; border: brown solid 2px; color: black; background: radial-gradient(#c0ad93);}
+.selection {margin: 5%; padding: 2%;}
+.text-info {margin-top: 1%; border: solid, 5px, #EFBF04; background: radial-gradient(#BF40BF 10%, #9F2B68); padding: 0.5%;}
+.text-info p {color: black; font-size: 150%; padding: 0.5%;}
+.tlacitko .btn {font-family: "MedievalSharp"; background-color: orange; color: black; border: solid, 5px, #986B41; background: radial-gradient(orange 5%, yellow , #333333 70%); margin: 1% 30%;}
+.tlacitko .btn:hover {font-family: "MedievalSharp"; background-color: orange; color: #f5e9a4; border: solid, 5px, #986B41; background: radial-gradient(orange 10%, yellow); margin: 1% 30%;}
+.tlacitko .btn-warning {font-family: "MedievalSharp"; color: black; border: solid, 5px, Red; background: radial-gradient(#004e00, green); margin: 1% 30%;}
+.tlacitko .btn-warning:hover {font-family: "MedievalSharp"; background-color: orange; color: #f5e9a4; border: solid, 5px, #986B41; background: radial-gradient(orange 10%, yellow); margin: 1% 30%;}
+.odpoved {margin: 0% 5%; padding: 0.5%;}
+.odpoved .btn {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; font-family: "MedievalSharp"}
+.odpoved .btn:hover {color: #ffffff; background-color: #c0ad93; border-color: #a54b2a; font-family: "MedievalSharp"} 
+.odpoved label {margin: 0.5% 0;}
+.odpoved label:hover {color: red;}
+.odpoved p {font-size: 20px; margin: 0.5% 3% 1% 1%; text-align: left;}
+
+@media (min-width: 768px) {
+body {background: #333333; background: radial-gradient(#646464, #303030); color: white;}
+.uvod {border: 5px #000000 solid; background: gray; display: flex; flex-wrap: wrap; margin: 1%; padding: 2%;}
+.uvod p {display: flex; flex-wrap: wrap; font-size: 200%;}
+.uvod h1 {display: flex; flex-wrap: wrap; font-size: 300%;}
+.titulek {margin-top: 5%;}
+.titulek p {font-size: 800%;}
+.text {font-size: 250%; background-color: purple;border: solid, 5px, #EFBF04; background: radial-gradient(#BF40BF 10%, #9F2B68); color: #EFBF04; padding: 1%;}
+.hodnoceni {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; display: flex; flex-wrap: wrap;}
+.hodnoceni .form-check {margin: 2% 2%; font-size: 200%;}
+.tlacitko {margin: 2% 30%;}
+.obrazek {margin: 5%; padding: 2%;}
+.obrazek img {width: 100%; height: auto;}
+.classa {margin: 0%; justify-content: top; align-items: top;}
+.classa .btn {border: #5151f0 solid 2px; background: radial-gradient(gold 55%, #7575f2);}
+.classa .btn:hover {border: gold solid 2px; background: radial-gradient(white 50%, gold);}
+.classa .text {padding: 0.5%; font-size: 200%; border: brown solid 2px; color: black; background: radial-gradient(#c0ad93);}
+.selection {margin: 5%; padding: 2%;}
+.text-info {margin-top: 1%; border: solid, 5px, #EFBF04; background: radial-gradient(#BF40BF 10%, #9F2B68); padding: 0.5%;}
+.text-info p {color: black; font-size: 170%; padding: 0.5%;}
+.tlacitko .btn {font-family: "MedievalSharp"; background-color: orange; color: black; border: solid, 5px, #986B41; background: radial-gradient(orange 5%, yellow , #333333 70%);  margin: 0% 30%; width: 60%; font-size: 150%;}
+.tlacitko .btn:hover {font-family: "MedievalSharp"; background-color: orange; color: #f5e9a4; border: solid, 5px, #986B41; background: radial-gradient(orange 10%, yellow);  margin: 0% 30%; width: 60%; font-size: 150%;}
+.tlacitko .btn-warning {font-family: "MedievalSharp"; color: black; border: solid, 5px, Red; background: radial-gradient(#004e00, green); margin: 1% 30%;}
+.tlacitko .btn-warning:hover {font-family: "MedievalSharp"; background-color: orange; color: #f5e9a4; border: solid, 5px, #986B41; background: radial-gradient(orange 10%, yellow); margin: 1% 30%;}
+.odpoved p {font-size: 20px; margin: 0.5% 3% 1% 1%; text-align: left;}
+.odpoved .btn {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; font-family: "MedievalSharp"}
+.odpoved .btn:hover {color: #ffffff; background-color: #c0ad93; border-color: #a54b2a; font-family: "MedievalSharp"} 
+.odpoved {margin: 0% 5%; padding: 0.5%;}
+.odpoved label {margin: 0.5% 0;}
+.odpoved label:hover {color: red;}
+}
+
+@media (min-width: 1500px) {
+body {background: #333333; background: radial-gradient(#646464, #303030); color: white;}
+.uvod {border: 5px #000000 solid; background: gray; display: flex; flex-wrap: wrap; margin: 1%; padding: 2%;}
+.uvod p {display: flex; flex-wrap: wrap; font-size: 200%;}
+.uvod h1 {display: flex; flex-wrap: wrap; font-size: 300%;}
+.titulek {margin-top: 3%;}
+.titulek p {font-size: 800%;}
+.text {font-size: 150%; background-color: purple;border: solid, 5px, #EFBF04; background: radial-gradient(#BF40BF 10%, #9F2B68); color: #EFBF04; padding: 1%;}
+.hodnoceni {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; display: flex; flex-wrap: wrap;}
+.hodnoceni .form-check {margin: 2% 2%; font-size: 100%;}
+.tlacitko {margin: 1% 30%;}
+.obrazek {margin: 5%; padding: 2%;}
+.obrazek img {width: 100%; height: auto;}
+.classa {margin: 0%; justify-content: top; align-items: top;}
+.classa .btn {border: #5151f0 solid 2px; background: radial-gradient(gold 55%, #7575f2);}
+.classa .btn:hover {border: gold solid 2px; background: radial-gradient(white 50%, gold);}
+.classa .text {padding: 0.5%; font-size: 200%; border: brown solid 2px; color: black; background: radial-gradient(#c0ad93);}
+.selection {margin: 5%; padding: 2%;}
+.text-info {margin-top: 1%; border: solid, 5px, #EFBF04; background: radial-gradient(#BF40BF 10%, #9F2B68); padding: 0.5%;}
+.text-info p {color: black; font-size: 100%; padding: 0.5%;}
+.tlacitko .btn {font-family: "MedievalSharp"; background-color: orange; color: black; border: solid, 5px, #986B41; background: radial-gradient(orange 5%, yellow , #333333 70%); margin: 0% 30%; width: 40%; font-size: 100%;}
+.tlacitko .btn:hover {font-family: "MedievalSharp"; background-color: orange; color: #f5e9a4; border: solid, 5px, #986B41; background: radial-gradient(orange 10%, yellow); margin: 0% 30%; width: 40%; font-size: 100%;}
+.tlacitko .btn-warning {font-family: "MedievalSharp"; color: white; border: solid, 5px, Red; background: radial-gradient(#004e00, green); margin: 1% 30%;}
+.tlacitko .btn-warning:hover {font-family: "MedievalSharp"; color: white; border: solid, 5px, Red; background: radial-gradient(#004e00, green, orange 70%); margin: 1% 30%;}
+.odpoved p {font-size: 20px; margin: 0.5% 3% 1% 1%; text-align: left;}
+.odpoved .btn {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; font-family: "MedievalSharp"}
+.odpoved .btn:hover {color: #ffffff; background-color: #c0ad93; border-color: #a54b2a; font-family: "MedievalSharp"} 
+.odpoved {border: 0px solid pink; margin: 0% 5%; padding: 0.5%;}
+.odpoved label {margin: 0.5% 0;}
+.odpoved label:hover {color: red;}
+}

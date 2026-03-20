@@ -6,7 +6,11 @@
     <title>Konec</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
+    <script src="../backend/server.js" defer></script>
     <script src="/js/quiz.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,22 +19,18 @@
         <div class="row justify-content-center">
             <div class="col text-center">
                 <div class="titulek mb-4">
-                    <h2>Konec</h2>
+                    <p>Konec</p>
                 </div>
                 <div class="uvod mb-5">
                     <p>Děkuji Vám za čas, který jste věnovali vyplnění tohoto dotazníku a za Vaši ochotu vžít se do nabízených situací. Vaše odpovědi jsou pro mou maturitní práci klíčové a velmi si vážím Vaší upřímnosti a zapojení představivosti. Po zmáčknutí modrého tlačítka definitivně odešlete odpovědi a již nepůjsou změnit.</p>
                 </div>
-
-                <div class="d-grid gap-3 col-6 mx-auto">
-                    <button type="button" class="btn btn-primary btn-lg px-5" 
-                            onclick="submitAnswersAndGo('dekuji.html')">
-                        Odeslat odpovědi
-                    </button>
-
-                    <button type="button" class="btn btn-secondary btn-lg px-5" 
-                            onclick="window.location.href='roleplay/vyber.html'">
-                        Poslední možnost změnit odpovědi
-                    </button>
+            </div>
+                <div class="tlacitko row justify-content-center align-items-center text-center">
+                    <button type="button" class="btn btn-danger btn-lg px-5" onclick="submitAnswersAndGo('dekuji.html')"> Odeslat odpovědi</button>
+                </div>
+                <div class="tlacitko row justify-content-center align-items-center text-center">
+                    <button type="button" class="btn btn-warning btn-lg px-5" onclick="saveAndNext('roleplay/vyber.html')">Poslední možnost změnit odpovědi</button>
+                </div>  
                 </div>
             </div>
         </div>

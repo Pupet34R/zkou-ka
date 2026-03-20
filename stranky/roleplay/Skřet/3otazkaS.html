@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Situace Skřet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../styleF.css">
     <script src="../../../backend/server.js" defer></script>
-        <script src="/js/quiz.js" defer></script>
+    <script src="/js/quiz.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 </head>
 <body>
     <form method="POST" action="/save-answer" id="quizForm">
@@ -20,28 +23,29 @@
                 <div class="text d-flex justify-content-center align-items-center text-center">
                     <p>Procházíte blátivou cestou na okraji starého bojiště. V bahně zahlédnete zdobený kožený váček. Uvnitř je zlato a pečetní prsten rytíře, který vás před lety neprávem nechal uvěznit. Je to žold pro jeho muže; pokud ho rytíř nedostane zpět, ztratí svou čest a postavení.</p></div>
                     <div class="odpoved d-flex flex-column text-left">
-                        <input type="radio" class="btn-check" id="opt1" name="odpoved24" value="1" autocomplete="off">
+                        <input type="radio" class="btn-check" id="opt1" name="So3" value="+" autocomplete="off">
                         <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt1">
                             <p>Váček doručím rytířovu sluhovi, aby se dostal zpět k majiteli.</p>
                         </label>
-                        <input type="radio" class="btn-check" id="opt2" name="odpoved24" value="2" autocomplete="off">
+                        <input type="radio" class="btn-check" id="opt2" name="So3" value="0" autocomplete="off">
                         <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt2">
                             <p>Překročím váček a jdu dál svou cestou, jako bych si ničeho nevšiml.</p>
                         </label>
-                        <input type="radio" class="btn-check" id="opt3" name="odpoved24" value="3" autocomplete="off">
+                        <input type="radio" class="btn-check" id="opt3" name="So3" value="-" autocomplete="off">
                         <label class="btn btn-outline-primary btn-lg px-4 py-3" for="opt3">
                             <p>Váček si ponechám a pečetní prsten se pokusím prodat u překupníka v nejbližším městě.</p>
                         </label>
                         </div>
-                <div class="tlacitko row justify-content-center align-items-center text-center">
-                    <button type="button" class="btn btn-primary btn-lg px-5" onclick="saveAndNext('4otazkaS.html')">Další</button>
-                </div>
-                <div class="tlacitko row justify-content-center align-items-center text-center">
-                    <button type="button" class="btn btn-primary btn-lg px-5" onclick="saveAndNext('2otazkaS.html')">Předchozí</button>
+                    </div>
+                    <div class="tlacitko row justify-content-center align-items-center text-center">
+                        <button type="button" class="btn btn-primary btn-lg px-5" onclick="saveAndNext('4otazkaS.html')">Další</button>
+                    </div>
+                    <div class="tlacitko row justify-content-center align-items-center text-center">
+                        <button type="button" class="btn btn-primary btn-lg px-5" onclick="saveAndNext('2otazkaS.html')">Předchozí</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </form>
 </body>
 </html>
