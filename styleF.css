@@ -7,7 +7,7 @@ body {background: #333333; background: radial-gradient(#646464, #303030); color:
 .text {font-size: 150%; border: solid, 5px, #EFBF04; background: radial-gradient(#BF40BF 10%, #9F2B68); color: #EFBF04; padding: 1%;}
 .hodnoceni {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; display: flex; flex-wrap: wrap;}
 .hodnoceni .form-check {margin: 2% 2%;}
-.obrazek {margin-bottom: 1%;}
+.obrazek {margin-bottom: 1%; border: solid 5px #EFBF04}
 .obrazek img {width: 100%; height: auto;}
 .classa {margin: 0%; justify-content: top; align-items: top;}
 .classa .btn {border: #5151f0 solid 2px; background: radial-gradient(gold 55%, #7575f2);}
@@ -38,7 +38,7 @@ body {background: #333333; background: radial-gradient(#646464, #303030); color:
 .hodnoceni {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; display: flex; flex-wrap: wrap;}
 .hodnoceni .form-check {margin: 2% 2%; font-size: 200%;}
 .tlacitko {margin: 2% 30%;}
-.obrazek {margin: 5%; padding: 2%;}
+.obrazek {margin: 5%; border: solid 5px #EFBF04}
 .obrazek img {width: 100%; height: auto;}
 .classa {margin: 0%; justify-content: top; align-items: top;}
 .classa .btn {border: #5151f0 solid 2px; background: radial-gradient(gold 55%, #7575f2);}
@@ -70,7 +70,7 @@ body {background: #333333; background: radial-gradient(#646464, #303030); color:
 .hodnoceni {background-color: #e1ccae; color: black; border: solid, 5px, #a54b2a; display: flex; flex-wrap: wrap;}
 .hodnoceni .form-check {margin: 2% 2%; font-size: 100%;}
 .tlacitko {margin: 1% 30%;}
-.obrazek {margin: 5%; padding: 2%;}
+.obrazek {margin: 5%; border: solid 5px #EFBF04;}
 .obrazek img {width: 100%; height: auto;}
 .classa {margin: 0%; justify-content: top; align-items: top;}
 .classa .btn {border: #5151f0 solid 2px; background: radial-gradient(gold 55%, #7575f2);}
