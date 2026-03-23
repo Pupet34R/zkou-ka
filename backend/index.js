@@ -61,7 +61,11 @@ app.post('/save-answer', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../stranky/dotaznik/1stranka.html'));
+  res.redirect( '/stranky/dotaznik/1stranka.html');
+});
+
+app.get('/stranky/dotaznik/:page.html', (req, res) => {
+  res.sendFile(path.join(__dirname, `../stranky/dotaznik/${page}.html`));
 });
 
 app.listen(PORT, () => {
