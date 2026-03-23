@@ -44,7 +44,7 @@ app.post('/save-answer', (req, res) => {
   // Build one line: timestamp,q1:value,q2:value,...
   let line = record.cas;
   allQuestions.forEach(q => {
-    const val = answers[q] ?? '-'; // unanswered = '-'
+    const val = answers[q] ?? '/'; // unanswered = '/'
     line += `,${q}:${val}`;
   });
   line += '\n';
